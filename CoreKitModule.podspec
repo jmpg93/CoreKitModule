@@ -16,8 +16,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "CoreKitModule/*.swift"
 
-  s.source           = { :git => "https://github.com/jmpg93/CoreKitModule.git" }
-  s.homepage     = "localHost"
+  s.source           = { :git => "https://github.com/jmpg93/CoreKitModule.git" :branch => "master" }
   s.author       = { "José María Puerta" => "jmpuerta@tuenti.com" }
   
   s.frameworks = 'UIKit', 'TwitterKit'
